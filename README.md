@@ -22,7 +22,7 @@ This tool combines multiple tasks like database inspection, time zone comparison
 1. Clone the repo:
    ```bash
    git clone https://github.com/fxnoob/llamaindex-agents.git
-   cd llamaindex-agents.git
+   cd llamaindex-agents
    ```
 
 2. Install dependencies:
@@ -30,7 +30,15 @@ This tool combines multiple tasks like database inspection, time zone comparison
    yarn install
    ```
 
-3. Run the tool:
+3. Create the `.env` file:
+    - Copy the `.env.example` file to `.env`:
+      ```bash
+      cp .example-env .env
+      ```
+    - Open `.env` and add the required keys and values (e.g., API keys and other credentials).
+
+
+4. Run the tool:
    ```bash
    yarn dev
    ```
@@ -50,8 +58,4 @@ Response: 3.9 is greater than 3.11
 ## License
 
 MIT License
-
-
-
-
 
