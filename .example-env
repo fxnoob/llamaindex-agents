@@ -5,3 +5,5 @@ DB_PORT=1432
 DB_USER=SA
 DB_PASSWORD=DBPASSWORD
 DB_DATABASE=DBNAME
+GOOGLE_PLACES_API_KEY="google places api key"
+GO_CODEBASE_ROOT="/Users/hitesh/github/go-print"

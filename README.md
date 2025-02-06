@@ -38,7 +38,12 @@ This tool combines multiple tasks like database inspection, time zone comparison
     - Open `.env` and add the required keys and values (e.g., API keys and other credentials).
 
 
-4. Run the tool:
+4. Setup command (go tools are needed)
+    ```bash
+   yarn setup
+ ```
+
+5. Run the tool:
    ```bash
    yarn dev
    ```

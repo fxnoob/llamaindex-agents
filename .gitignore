@@ -13,3 +13,4 @@ yarn-error.log*
 .env
 .idea
 .DS_Store
+list-all-funcs
